@@ -1,3 +1,15 @@
+@keyframes sway {
+    0% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -43,6 +55,7 @@ body {
     border-radius: 50%;
     width: 120px; /* Tamaño más grande para el logo */
     height: 120px;
+    animation: sway 3s ease-in-out infinite; /* Añadir la animación */
 }
 
 .slogan {
