@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0056a6; /* Fondo azul similar al de tu imagen */
+    color: white;
+}
+
+.card {
+    background: #0056a6; /* Mantener el fondo azul de la tarjeta */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 360px; /* Ancho de la historia de Instagram */
+    height: 640px; /* Alto de la historia de Instagram */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo-circle {
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 120px; /* Tamaño más grande para el logo */
+    height: 120px;
+}
+
+.slogan {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.address {
+    font-size: 0.9em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
